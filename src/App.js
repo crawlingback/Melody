@@ -17,10 +17,6 @@ function App() {
                             element={handler["edit"]["route"]}
                         />
                         <Route
-                            path={handler["create"]["link"]}
-                            element={handler["create"]["route"]}
-                        />
-                        <Route
                             path={handler["list"]["link"]}
                             element={handler["list"]["route"]}
                         />
